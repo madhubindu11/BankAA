@@ -8,12 +8,11 @@ from sklearn.preprocessing import StandardScaler
 df = pd.read_csv('BankDA.csv')
 print("Columns in DataFrame:", df.columns.tolist())
 
-# Set up the visualization
-plt.figure(figsize=(15, 10))
-
+print("DataFrame shape:", df.shape)
 print(df.head())
 print(df.columns)
 
+plt.figure(figsize=(15, 10))
 # Create histogram for Account Balance
 sns.histplot(data=df, x='Account Balance', kde=True, 
              color='skyblue', label='Account Balance')
