@@ -5,11 +5,11 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv('C:/Users/vnjak/OneDrive/Desktop/Fedex data/Bank_Annual-Analysis.csv')
+df = pd.read_csv('/content/BankDA.csv')
 print("Columns in DataFrame:", df.columns.tolist())
 
 # Set up the visualization
-plt.figure(figsize=(15, 10))  # Create a large figure for better readability
+plt.figure(figsize=(15, 10))
 
 # Create histogram for Account Balance
 sns.histplot(data=df, x='Account Balance', kde=True, 
