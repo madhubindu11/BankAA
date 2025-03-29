@@ -11,6 +11,9 @@ print("Columns in DataFrame:", df.columns.tolist())
 # Set up the visualization
 plt.figure(figsize=(15, 10))
 
+print(df.head())
+print(df.columns)
+
 # Create histogram for Account Balance
 sns.histplot(data=df, x='Account Balance', kde=True, 
              color='skyblue', label='Account Balance')
