@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv('/content/BankDA.csv')
+df = pd.read_csv('BankDA.csv')
 print("Columns in DataFrame:", df.columns.tolist())
 
 # Set up the visualization
