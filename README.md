@@ -1,5 +1,5 @@
 🔍 Overview
-This project analyzes annual banking data to uncover customer segmentation, spending patterns, and key financial insights using data visualization and machine learning techniques.
+This project analyzes annual banking data to uncover customer behaviour, segmentation, spending patterns, and key financial insights using data visualization and machine learning techniques.
 
 📂 Dataset
 The dataset contains financial information, including account balances, income, credit scores, and transaction behavior.
@@ -17,7 +17,7 @@ Pie Charts: Showing categorical distributions (Gender, Location, Account Type).
 Violin Plots: Understanding the spread of account balance and income.
 Heatmap: Identifying correlations between numerical features.
 
-3️⃣ Customer Segmentation using K-Means Clustering
+3️⃣ Customer Segmentation using K-Means Clustering.
 Applied K-Means clustering with an optimal k=4 determined using the elbow method.
 Visualized clusters in a scatter plot to understand customer groups.
 Created radar plots for cluster profile comparison.
@@ -31,11 +31,11 @@ The project includes:
 ✔️ K-Means clustering with customer segmentation
 
 🛠️ Technologies Used
-Python : Coding
-Pandas: Data manipulation
-Numpy : To push numerical Values
-Matplotlib & Seaborn: Data visualization
-Scikit-learn: Machine learning (K-Means clustering)
+Python : Coding,
+Pandas: Data manipulation,
+Numpy : To push numerical Values,
+Matplotlib & Seaborn: Data visualization and
+Scikit-learn: Machine learning (K-Means clustering).
 
 🚀 How to Use
 1️⃣ Clone this repository:
