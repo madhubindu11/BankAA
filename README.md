@@ -7,7 +7,7 @@ Missing values are handled using mean imputation.
 Features are standardized for clustering analysis.
 
 📈 Analysis & Methodology
-1️⃣ Data Preprocessing
+1️⃣ Data Preprocessing:
 Cleaned column names and handled missing values.
 Standardized numerical features using StandardScaler().
 
